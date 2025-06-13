@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>391</width>
+    <height>494</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Add a Sample</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="12" column="0">
+       <widget class="QLabel" name="label_13">
+        <property name="text">
+         <string>cd4_t_cell count</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QLineEdit" name="responseLineEdit">
+        <property name="toolTip">
+         <string>Did the subject respond to the treatment?</string>
+        </property>
+       </widget>
+      </item>
+      <item row="13" column="0">
+       <widget class="QLabel" name="label_14">
+        <property name="text">
+         <string>nk_cell count</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="toolTip">
+         <string>Which subject is the sample from?</string>
+        </property>
+        <property name="text">
+         <string>Subject</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="0">
+       <widget class="QLabel" name="label_12">
+        <property name="text">
+         <string>cd8_t_cell count</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="label_7">
+        <property name="toolTip">
+         <string>Did the subject respond to the treatment?</string>
+        </property>
+        <property name="text">
+         <string>Response</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QLineEdit" name="sampleLineEdit">
+        <property name="toolTip">
+         <string>What sample is it? (s##)</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <widget class="QLineEdit" name="sampleTypeLineEdit">
+        <property name="toolTip">
+         <string>What is the sample type?</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0">
+       <widget class="QLabel" name="label_9">
+        <property name="toolTip">
+         <string>What is the sample type?</string>
+        </property>
+        <property name="text">
+         <string>Sample Type</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_6">
+        <property name="toolTip">
+         <string>What treatment is the subject recieving?</string>
+        </property>
+        <property name="text">
+         <string>Treatment</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_8">
+        <property name="toolTip">
+         <string>What sample is it? (s##)</string>
+        </property>
+        <property name="text">
+         <string>Sample</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="0">
+       <widget class="QLabel" name="label_11">
+        <property name="text">
+         <string>b_cell count</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="sexLineEdit">
+        <property name="toolTip">
+         <string>What is the subject's sex?</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="conditionLineEdit">
+        <property name="toolTip">
+         <string>What is the subject's condition?</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="ageLineEdit">
+        <property name="toolTip">
+         <string>What is the subject's age?</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="projectLineEdit">
+        <property name="toolTip">
+         <string>What project is the sample a part of?</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="1">
+       <widget class="QLineEdit" name="tftLineEdit">
+        <property name="toolTip">
+         <string>Time since the treatment in days</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="subjectLineEdit">
+        <property name="toolTip">
+         <string>Which subject is the sample from?</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="toolTip">
+         <string>What is the subject's sex?</string>
+        </property>
+        <property name="text">
+         <string>Sex</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="0">
+       <widget class="QLabel" name="label_10">
+        <property name="toolTip">
+         <string>Time since the treatment in days</string>
+        </property>
+        <property name="text">
+         <string>Time From Treatment</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="toolTip">
+         <string>What project is the sample a part of?</string>
+        </property>
+        <property name="text">
+         <string>Project</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="toolTip">
+         <string>What is the subject's age?</string>
+        </property>
+        <property name="text">
+         <string>Age</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="treatmentLineEdit">
+        <property name="toolTip">
+         <string>What treatment is the subject recieving?</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="toolTip">
+         <string>What is the subject's condition?</string>
+        </property>
+        <property name="text">
+         <string>Condition</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="0">
+       <widget class="QLabel" name="label_15">
+        <property name="text">
+         <string>monocyte count</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="1">
+       <widget class="QLineEdit" name="bLineEdit"/>
+      </item>
+      <item row="11" column="1">
+       <widget class="QLineEdit" name="cd8LineEdit"/>
+      </item>
+      <item row="12" column="1">
+       <widget class="QLineEdit" name="cd4LineEdit"/>
+      </item>
+      <item row="13" column="1">
+       <widget class="QLineEdit" name="nkLineEdit"/>
+      </item>
+      <item row="14" column="1">
+       <widget class="QLineEdit" name="monoLineEdit"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="addButton">
+      <property name="text">
+       <string>Add Sample</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <action name="open_file_action">
+   <property name="text">
+    <string>Open file...</string>
+   </property>
+  </action>
+  <action name="actionAdd_Sample">
+   <property name="text">
+    <string>Add Sample</string>
+   </property>
+   <property name="toolTip">
+    <string>Add a sample to the database</string>
+   </property>
+  </action>
+  <action name="actionRemove_Sample">
+   <property name="text">
+    <string>Remove Sample</string>
+   </property>
+   <property name="toolTip">
+    <string>Remove a sample from the database</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
