@@ -1,6 +1,6 @@
 ### Instructions
 
-To run, first make sure all files are in the same directory (not including the pycache files) and ensure that the PySide6 library is installed, then run **main.py**. **cell_count.db** is not needed to run the program as it will be created on run.
+To run, ensure that the PySide6 library is installed, then run **main.py**.  **cell_count.db** is not needed to run the program as it will be created on run.
 
 ### Database
 
